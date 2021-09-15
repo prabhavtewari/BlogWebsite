@@ -1,0 +1,127 @@
+.newsletter{
+    text-align: justify;
+}
+.banner{
+    width:100%;
+    height: 580px;
+    border-radius: 0px;
+  }
+  
+  .banneroverlay{
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    top: 60px;
+    left: 0px;
+    background-color: rgb(138, 128, 128);
+    opacity: 0.75;
+  }
+  
+  .heading{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Verdana regular';
+    font-size: 80px;
+    top:186.74px;
+    font-weight: 1000;
+  color: rgb(255, 255, 255);
+  }
+
+  body{
+    margin: 0px;
+    
+}/*navbar and fonts*/
+a {
+    color: black;
+    text-decoration: none;
+    }
+  p{
+    font-family: 'Segoe UI light';
+    text-align: center;
+    
+  }
+  h2{
+    text-align: center;
+       font-family: 'Verdana regular';
+     }
+  
+     .linelink{
+       font-size: 15px;
+       font-weight: 900;
+     }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   margin-right: 10px;
+    background-color: #333333;
+   position: fixed;
+   top: 0px;left: 0px;
+   width: 100%;
+   z-index: 100;
+   height: 60px;
+  }
+    
+    li {
+      float: right;
+      font-family: 'Verdana regular';
+     
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 16px 20px 16px;
+      text-decoration: none; 
+    }
+    .logo{
+      position: fixed;
+      top: 0px;left: 0px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      height: auto;
+      width: auto;
+      margin-left: 544.9px;
+      font-size: 40px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bolder;
+      z-index: 101;
+  
+    }
+    
+    li a:hover {
+      background-color: #111111;
+      z-index: 102;
+      transition: 0.3s;
+  
+    }
+  
+    body{
+        margin: 0px;
+    }
+  
+    .logo:hover{
+      cursor: default;
+    }
+    
+      /*nav bar ends*/
+      p{
+        margin-left: 101.66px;
+        margin-right: 101.66px;
+      }
+
+      .wtfbro{
+position: relative;
+right: 10px;
+      }
+
+      .icon1,.icon2,.icon3{
+        margin-left: 20px;
+        text-align: center;
+        position: relative;
+        left: 540px;
+        bottom: 10px;
+ ;
+      }
